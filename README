@@ -8,15 +8,15 @@
  Example:                                                                                           
                                                                                                     
   $("table.listTable").accordionTable({                                                             
-     'accordionOpenImg'      : 'entitlements_open',                                                 
-     'accordionClosedImg'    : 'entitlements_closed',                                               
+     'accordionOpenImg'      : 'minusImg',                                                 
+     'accordionClosedImg'    : 'plusImg',                                               
      'urlForAccordionRow'    : '/foo/bar',                                                          
      'spinnerId'             : 'spinnerId',                                                         
      'accordionRow'          : 'classForAccordionRowsInTable',                                      
      'dataAttrs'             : function(e) {                                                        
-       var ca_id = $(e.target).parents("tr").attr("data-collection-asset"),                         
-           sid = $(e.target).parents("table").attr("data-user")                                     
-       return { ca_id : ca_id, sid : sid }                                                          
+       var foo_id = $(e.target).parents("tr").attr("data-foo"),                         
+           uid = $(e.target).parents("table").attr("data-user")                                     
+       return { foo_id : foo_id, uid : uid }                                                          
      }                                                                                              
    });                                                                                              
                                                                                                     
