@@ -1,0 +1,33 @@
+{
+    "name": "accordion-table",
+    "title": "jQuery Accordion Table",
+    "description": "jQuery plugin for converting an HTML table into an AJAX accordion table.",
+    "keywords": [
+        "accordion",
+        "table"
+    ],
+    "version": "0.0.1",
+    "author": {
+        "name": "Kevin Farst"
+    },
+    "maintainers": [
+        {
+            "name": "Kevin Farst",
+            "email": "farst.6@osu.edu",
+            "url": "http://github.com/kfarst"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/jquery/jquery-color/blob/2.1.2/MIT-LICENSE.txt"
+        }
+    ],
+    "bugs": "https://github.com/kfarst/jQuery-Accordion-Table/issues",
+    "homepage": "https://github.com/kfarst/jQuery-Accordion-Table",
+    "docs": "https://github.com/kfarst/jQuery-Accordion-Table/README.md",
+    "download": "http://code.jquery.com/#jquery-accordion-table",
+    "dependencies": {
+        "jquery": ">=1.0"
+    }
+}
